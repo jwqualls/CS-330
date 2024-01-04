@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{9645e405-d653-40bc-a14a-e16662f91c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{2297d6c0-741e-4362-96a4-91f4c53e5c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\include">
+      <UniqueIdentifier>{d76386eb-775d-48d0-8082-4a6aea7bf4eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\shared">
+      <UniqueIdentifier>{508909d0-c91e-4e53-a532-009784d1fc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\shared\glad">
+      <UniqueIdentifier>{1baaf489-3f6e-4961-b454-e76468e9496c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\shared\glm">
+      <UniqueIdentifier>{48500a95-5614-414d-ab58-b80b4c7bfd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\shared\stb_image">
+      <UniqueIdentifier>{e4c0f243-0893-43f2-a742-12bb33a05af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\shared\stb_image\stb">
+      <UniqueIdentifier>{882dfdbf-6367-4894-a3f9-8dafecaafff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{bd630e73-b530-46be-ba57-55657f9fd872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\shaders">
+      <UniqueIdentifier>{c628e23c-2881-4668-a1cf-9dcab9428d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets\textures">
+      <UniqueIdentifier>{261979d0-9876-4e13-887e-3225007bcd17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\shared\glad\src\glad.c">
+      <Filter>Source Files\external\shared\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="src\application.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="external\shared\stb_image\stb\stb.cpp">
+      <Filter>Source Files\external\shared\stb_image\stb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VAO.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VBO.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EBO.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shaderClass.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="include\application.h">
+      <Filter>Source Files\include</Filter>
+    </Text>
+    <Text Include="external\shared\glm\CMakeLists.txt">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </Text>
+    <Text Include="external\shared\glm\copying.txt">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </Text>
+    <Text Include="include\types.h">
+      <Filter>Source Files\include</Filter>
+    </Text>
+    <Text Include="include\mesh.h">
+      <Filter>Source Files\include</Filter>
+    </Text>
+    <Text Include="include\light.h">
+      <Filter>Source Files\include</Filter>
+    </Text>
+    <Text Include="src\light.cpp">
+      <Filter>Source Files\src</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="external\shared\glm\.appveyor.yml">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </None>
+    <None Include="external\shared\glm\.gitignore">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </None>
+    <None Include="external\shared\glm\.travis.yml">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </None>
+    <None Include="external\shared\glm\manual.md">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </None>
+    <None Include="external\shared\glm\readme.md">
+      <Filter>Source Files\external\shared\glm</Filter>
+    </None>
+    <None Include="assets\shaders\basic_shader.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_shader.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_lit.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\basic_unlit_color.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\light.frag">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+    <None Include="assets\shaders\light.vert">
+      <Filter>Source Files\assets\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\shader.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\camera.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\texture.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Cylinder.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VAO.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VBO.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EBO.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\shaderClass.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\wall.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\marvel.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\table.jpg">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\CS330.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\CS330-2.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\Collage.png">
+      <Filter>Source Files\assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
